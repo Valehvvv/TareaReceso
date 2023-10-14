@@ -1,19 +1,40 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Puedes agregar código en el método main si es necesario.
     }
 }
+
+class Persona {
+    public String nombre;
+    public Vehiculo vehiculo;
+    public Destino destino;
+
+    public Persona(String nombre, Vehiculo vehiculo, Destino destino) {
+        this.nombre = nombre;
+        this.vehiculo = vehiculo;
+        this.destino = destino;
+    }
+}
+
+class Vehiculo {
+    public String tipo;
+    public int velocidad;
+
+    public Vehiculo(String tipo, int velocidad) {
+        this.tipo = tipo;
+        this.velocidad = velocidad;
+    }
+}
+
+class Destino {
+    public int distanciaRespectoOrigen;
+    public String nombreDestino;
+
+    public Destino(int distanciaRespectoOrigen, String nombreDestino) {
+        this.distanciaRespectoOrigen = distanciaRespectoOrigen;
+        this.nombreDestino = nombreDestino;
+    }
+}
+
