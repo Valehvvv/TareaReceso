@@ -18,3 +18,12 @@ foto diagrama UML:
 ![image](https://github.com/Valehvvv/TareaReceso/assets/142462847/43c09fd1-5d20-4536-bcd6-d53a06ff30bc)
 
 
+pruebas unitarias:
+
+testVehiculo: Esta prueba verifica que la clase Vehiculo se inicializa correctamente con los valores proporcionados.
+
+testDestino: Esta prueba verifica que la clase Destino se inicializa correctamente con los valores proporcionados. 
+
+testPersona: Esta prueba verifica que la clase Persona se inicializa correctamente con los valores proporcionados. 
+
+testCalcularTiempoLlegada: Esta prueba verifica que el método calcularTiempoLlegada de la clase Persona devuelve el tiempo correcto basado en la velocidad del vehículo y la distancia al destino.
