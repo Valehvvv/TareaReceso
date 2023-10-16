@@ -79,13 +79,14 @@ class Persona {
         this.destino = destino;
     }
 
-    public void calcularTiempoLlegada() {
+    public double calcularTiempoLlegada() {
         double tiempoEnHoras = destino.distanciaRespectoOrigen / vehiculo.velocidad;
         double tiempoEnMinutos = tiempoEnHoras * 60;
 
         System.out.println("¡Hola " + nombre + "!");
         System.out.println("Para llegar a " + destino.nombreDestino + " en " + vehiculo.tipo + ":");
         System.out.println("Aproximadamente tomará " + tiempoEnHoras + " horas y " + tiempoEnMinutos + " minutos.");
+        return tiempoEnHoras;
     }
 }
 
